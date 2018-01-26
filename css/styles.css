@@ -1,0 +1,159 @@
+
+/*------------------------
+GENERAL
+-------------------------*/
+
+ * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+ }
+
+ h1 {
+ 	font-size: 3em;
+ }
+
+ h2 {
+ 	padding-top: 30px;
+ 	font-weight: 600; 
+ 	text-align: center;
+ 	font-family: sans-serif;
+ 	font-size: 2em;
+ 	color: #9a969b;
+ }
+
+ h3 {
+ 	font-size: 1.75em;
+ 	font-weight: 100;
+ }
+
+ p {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.5em;	
+  line-height: 1.55em;
+  color: #9a969b;
+ }
+
+
+
+/*------------------------
+HEADER
+-------------------------*/
+ header {
+ 
+ }
+
+ .bg-wrapper {
+  height: 300px;
+  color: #fff;
+  text-align: center; 
+  background-image: 
+  linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), 
+  url("../images/bg-header.jpeg"); 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+ }
+
+  h1 {
+ 	padding-top: 100px;
+ 	padding-bottom: 20px;
+ }
+
+
+
+/*Navigation*/
+
+ .main-nav {
+ 	text-align: center;
+ 	height: 60px;
+ 	width: 100%;
+ 	background: rgba(179, 26, 239, .6);
+ }
+
+ .main-nav ul {
+ 	list-style: none; 
+ }
+
+ .main-nav li {
+ 	display: inline-block;
+ 	padding: 20px;
+ }
+
+ .main-nav a {
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+ 	color: #f5f5f5;
+ 	font-family: 'Fira Sans', sans-serif;
+ }
+
+ .main-nav a:hover {
+ 	color: #e5d7ea;
+ }
+
+ /*--------------------------------
+ SKILLS SECTION
+ --------------------------------*/
+
+  .skills {
+  	text-align: center;
+  	padding-top: 30px;
+  	width: 100%;
+  }
+
+  .icon-wrapper {
+  	height: 120px;
+  	width: 120px;	
+  	margin: 0 auto;	
+  	background: #f4d8ff;
+  	border-radius: 50%;
+  	border: 1px solid #ffbaf3;
+  }
+
+  .skills .second {
+  	background: tomato;	
+  	border: 1px solid #e01f1f;
+  }
+
+  .skills .third {
+  	background: #eff7fc;	
+  	border: 1px solid #52b9f9;
+  }
+
+  .icon-wrapper i {
+  	font-size: 4.5em;
+  	padding: 20%;
+  	color: #fc00d2;
+  }
+
+  .icon-wrapper i.fa-ambulance {
+  	color: #fff;
+  }
+
+  .icon-wrapper i.fa-user-md {
+  	color: #84ceff;
+  }
+
+  .skills p {
+  	padding: 20px;
+  }
+
+
+
+/*------------------------------------
+FOOTER
+-------------------------------------*/
+
+ footer {
+ 	margin-top: 40px;
+ 	background: #5b3268;
+ 	text-align: center;
+ 	height: 60px;
+ }
+
+ footer p {
+ 	font-size: 1.1em;
+ 	color: #fbf7fc;
+ 	padding: 15px;
+ }
+
